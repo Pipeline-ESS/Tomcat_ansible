@@ -20,7 +20,7 @@ pipeline {
         }
         stage('ansible'){
             steps {
-            sh 'ansible-playbook -i /opt/ansible_playbook/tomcat_ansible/hosts /opt/ansible_playbook/tomcat_ansible/tomcat-setup.yml'
+            sh 'ssh ansible ansible-playbook -i /opt/ansible_playbook/tomcat_ansible/hosts /opt/ansible_playbook/tomcat_ansible/tomcat-setup.yml'
             }
         }
     }
