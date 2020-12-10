@@ -1,6 +1,5 @@
 ---
 - name: Tomcat deployment playbook
-       
   become: yes               # If to escalate privilege
   vars:
     tomcat_ver: 9.0.40                          # Tomcat version to install
