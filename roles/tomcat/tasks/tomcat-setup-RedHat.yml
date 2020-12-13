@@ -69,7 +69,6 @@
   with_items:
     - /opt/tomcat/webapps/host-manager/META-INF/context.xml
     - /opt/tomcat/webapps/manager/META-INF/context.xml
-  notify: restart tomcat
 
 - name: Set server port
   template:
