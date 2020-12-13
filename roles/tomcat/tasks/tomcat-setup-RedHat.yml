@@ -79,7 +79,5 @@
     dest: /opt/tomcat/conf/server.xml
     owner: tomcat
     group: tomcat
-  become: yes
-  become_user: tomcat
-  notify: restart tomcat
+  notify: start tomcat
 
