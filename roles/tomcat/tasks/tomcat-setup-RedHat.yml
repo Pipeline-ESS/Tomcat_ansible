@@ -16,7 +16,7 @@
   user:
     name: tomcat
     group: tomcat
-    home: /opt/tomcat
+    home: /home/tomcat
     createhome: no
     system: yes
 
