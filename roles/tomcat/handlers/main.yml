@@ -2,3 +2,8 @@
   service:
     name: tomcat
     state: restarted
+
+- name: start tomcat
+  command: /opt/tomcat/bin/catalina.sh start
+  become: yes
+  become_user: tomcat
