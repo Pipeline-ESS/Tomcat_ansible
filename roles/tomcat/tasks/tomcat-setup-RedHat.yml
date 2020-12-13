@@ -17,7 +17,7 @@
     name: tomcat
     group: tomcat
     home: /home/tomcat
-    createhome: no
+    createhome: yes
     system: yes
 
 - name: Download Tomcat
