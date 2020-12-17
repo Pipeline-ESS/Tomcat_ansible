@@ -1,2 +1,6 @@
-[dev]
-172.31.20.175
+[base:children]
+Production
+
+[Production]
+Tomcat_server ansible_hosts=192.168.56.104
+Zabbix_server ansible_hosts=192.168.56.103
